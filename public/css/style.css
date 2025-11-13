@@ -1,0 +1,219 @@
+/* ===============================
+   TECHY MODERN DESIGN
+   =============================== */
+
+:root {
+    --bg-dark: #020617;
+    --bg-card: #0f172a;
+    --primary: #3b82f6;
+    --primary-light: #60a5fa;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --glow: 0 0 10px rgba(59,130,246,0.7);
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text);
+}
+
+/* -------------------- Header -------------------- */
+.header {
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    color: var(--primary);
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: var(--glow);
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--muted);
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: var(--primary-light);
+}
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: var(--primary);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* -------------------- Page Content -------------------- */
+.content {
+    padding: 60px 0;
+    min-height: 70vh;
+}
+
+h2 {
+    color: var(--primary-light);
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-shadow: var(--glow);
+}
+
+p {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+/* -------------------- Gallery -------------------- */
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(59,130,246,0.3);
+    transition: all 0.4s ease;
+    box-shadow: 0 0 10px rgba(59,130,246,0.1);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(59,130,246,0.7);
+}
+
+/* -------------------- Contact Form -------------------- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 450px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: var(--bg-card);
+    color: var(--text);
+    outline: none;
+    border: 1px solid rgba(59,130,246,0.2);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--primary-light);
+    box-shadow: var(--glow);
+}
+
+.contact-form button {
+    background: var(--primary);
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 0 8px rgba(59,130,246,0.4);
+}
+
+.contact-form button:hover {
+    background: var(--primary-light);
+    box-shadow: 0 0 20px rgba(59,130,246,0.7);
+}
+
+/* -------------------- Footer -------------------- */
+.footer {
+    background: #0f172a;
+    padding: 40px 0;
+    color: var(--muted);
+    border-top: 1px solid rgba(59,130,246,0.2);
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.footer input {
+    padding: 8px;
+    border: 1px solid rgba(59,130,246,0.4);
+    border-radius: 5px;
+    background: var(--bg-card);
+    color: var(--text);
+}
+
+.footer button {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer button:hover {
+    background: var(--primary-light);
+    box-shadow: var(--glow);
+}
+
+/* -------------------- Animations -------------------- */
+a, button, img {
+    transition: all 0.3s ease;
+}

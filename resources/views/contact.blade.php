@@ -1,0 +1,14 @@
+@extends('layouts.app')
+@section('title', 'Contact Us')
+
+@section('content')
+<div class="container">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+@endsection
