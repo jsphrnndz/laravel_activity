@@ -150,10 +150,10 @@ body {
 }
 
 .category-card {
-    background: #ffffff; /* changed from dark to white */
+    background: #ffffff;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 0 12px rgba(0,0,0,0.15); /* lighter shadow for white background */
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
     transition: 0.2s ease-in-out;
     flex: 1 1 220px;
     text-align: center;
@@ -277,11 +277,9 @@ body {
 <!-- HERO SECTION -->
 <div class="hero">
     <div class="hero-content">
-        <h1>Sonsectetur adipiscing elit.</h1>
+        <h1>Explore the Universe.</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae 
-            quam sit amet tortor consequat porta. Sed faucibus ligula quis mollis lobortis.
-        </p>
+            From Earth to the stars, embark on a journey through space with us. Discover the wonders of the cosmos and beyond.
     </div>
 </div>
 
@@ -290,8 +288,8 @@ body {
     <div class="container d-flex justify-content-between align-items-center">
 
         <div>
-            <h4 class="fw-bold">Lorem ipsum dolor sit amet</h4>
-            <p class="mb-0">Consectetur adipiscing elit. Suspendisse dapibus blandit libero.</p>
+            <h4 class="fw-bold">Pushing the boundariesnof space exploration</h4>
+            <p class="mb-0">Innovative missions, cutting-edge technology, and a visions, make life multiplanetary</p>
         </div>
 
         <!-- BIG IMAGE BUTTON -->
@@ -315,8 +313,8 @@ body {
         <div class="category-card">
             <img src="/images/astronaut.jpg" alt="Category 1">
             <div class="p-3">
-                <h5 style="color: #000;">Category 1</h5>
-                <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 style="color: #000;">Human Spaceflight</h5>
+                <p style="color: #333;">Crewed missionsto space</p>
             </div>
         </div>
 
@@ -324,8 +322,8 @@ body {
         <div class="category-card">
             <img src="/images/earth.jpg" alt="Category 2">
             <div class="p-3">
-                <h5 style="color: #000;">Category 2</h5>
-                <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 style="color: #000;">Earth Observation</h5>
+                <p style="color: #333;">Eyes on our planet</p>
             </div>
         </div>
 
@@ -333,8 +331,8 @@ body {
         <div class="category-card">
             <img src="/images/spacecraft-small.jpg" alt="Category 3">
             <div class="p-3">
-                <h5 style="color: #000;">Category 3</h5>
-                <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 style="color: #000;">Lunar Exploration</h5>
+                <p style="color: #333;">Return to the moon</p>
             </div>
         </div>
 
@@ -342,8 +340,8 @@ body {
         <div class="category-card">
             <img src="/images/space-shuttle.jpg" alt="Category 4">
             <div class="p-3">
-                <h5 style="color: #000;">Category 4</h5>
-                <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 style="color: #000;">Launch Services</h5>
+                <p style="color: #333;">Your payload, our rocket</p>
             </div>
         </div>
 
