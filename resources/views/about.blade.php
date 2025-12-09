@@ -72,7 +72,7 @@
         width: 230;
         padding: 10px;
         text-align: center;
-        background: url(images/spacecraft-dark.jpg);
+        background: url(/images/spacecraft-dark.jpg);
         background-size: cover;
     }
 
@@ -174,8 +174,8 @@
         </div>
 
         <div id="right">
-            <img src="images/earth-small.jpg">
-            <img src="images/spaceshuttle-closeup.jpg">
+            <img src="/images/earth-small.jpg">
+            <img src="/images/spaceshuttle-closeup.jpg">
 
             <div id="blue-box">
                 <h2>Lorem Ipsum Dolor!</h2>
@@ -190,25 +190,25 @@
     <div id="grid-wrapper">
 
         <div class="grid-item">
-            <img src="images/astronaut.jpg">
+            <img src="/images/astronaut.jpg">
             <div class="grid-title">Category 1</div>
             <div class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo mauris.</div>
         </div>
 
         <div class="grid-item">
-            <img src="images/earth.jpg">
+            <img src="/images/earth.jpg">
             <div class="grid-title">Category 2</div>
             <div class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo mauris.</div>
         </div>
 
         <div class="grid-item">
-            <img src="images/spacecraft-small.jpg">
+            <img src="/images/spacecraft-small.jpg">
             <div class="grid-title">Category 3</div>
             <div class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo mauris.</div>
         </div>
 
         <div class="grid-item">
-            <img src="images/space-shuttle.jpg">
+            <img src="/images/space-shuttle.jpg">
             <div class="grid-title">Category 4</div>
             <div class="grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo mauris.</div>
         </div>
