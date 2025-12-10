@@ -233,8 +233,8 @@
 
             <!-- RIGHT COLUMN: IMAGES + CTA -->
             <div id="blog-right">
-                <img src="/images/planet.jpg" alt="Planet" class="side-image">
-                <img src="/images/shuttle.jpg" alt="Space Shuttle" class="side-image">
+                <img src="/images/earth-small.jpg" alt="Planet" class="side-image">
+                <img src="/images/spaceshuttle-closeup.jpg" alt="Space Shuttle" class="side-image">
 
                 <div class="cta-box">
                     <h3>Lorem Ipsum<br>Dolor!</h3>
@@ -275,7 +275,7 @@
             </div>
 
             <div class="cat-box">
-                <img src="/images/pic4.jpg" alt="Category 4">
+                <img src="/images/space-shuttle.jpg" alt="Category 4">
                 <div class="cat-title">Category 4</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
