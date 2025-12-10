@@ -151,9 +151,6 @@
 <body>
 
 
-
-<div id="wrapper">
-
     <!-- BLUE BLOG AREA -->
     <section id="blog-header">
         <h1>Blog</h1>
@@ -236,8 +233,8 @@
 
             <!-- RIGHT COLUMN: IMAGES + CTA -->
             <div id="blog-right">
-                <img src="planet.jpg" alt="Planet" class="side-image">
-                <img src="shuttle.jpg" alt="Space Shuttle" class="side-image">
+                <img src="/images/planet.jpg" alt="Planet" class="side-image">
+                <img src="/images/shuttle.jpg" alt="Space Shuttle" class="side-image">
 
                 <div class="cta-box">
                     <h3>Lorem Ipsum<br>Dolor!</h3>
@@ -251,7 +248,7 @@
     <section id="categories-strip">
         <div class="cats">
             <div class="cat-box">
-                <img src="pic1.jpg" alt="Category 1">
+                <img src="/images/astronaut.jpg" alt="Category 1">
                 <div class="cat-title">Category 1</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -260,7 +257,7 @@
             </div>
 
             <div class="cat-box">
-                <img src="pic2.jpg" alt="Category 2">
+                <img src="/images/earth.jpg" alt="Category 2">
                 <div class="cat-title">Category 2</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -269,7 +266,7 @@
             </div>
 
             <div class="cat-box">
-                <img src="pic3.jpg" alt="Category 3">
+                <img src="/images/spacecraft-small.jpg" alt="Category 3">
                 <div class="cat-title">Category 3</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -278,7 +275,7 @@
             </div>
 
             <div class="cat-box">
-                <img src="pic4.jpg" alt="Category 4">
+                <img src="/images/pic4.jpg" alt="Category 4">
                 <div class="cat-title">Category 4</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
