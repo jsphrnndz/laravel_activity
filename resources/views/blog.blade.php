@@ -85,18 +85,21 @@
         }
         .side-image{
             height:150px;
-            width:100%;
+            margin-left:150px;
+            width:400px;
             border:4px solid #ffffff;
             margin-bottom:15px;
+            
         }
         .cta-box{
-            background-image: url(back.jpg);
+            background-image: url(/images/spacecraft-dark.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             padding:18px 15px 22px;
             text-align:center;
             margin-top:5px;
             box-shadow:0 0 3px rgba(0,0,0,.6);
+            margin-left:150px;
         }
         .cta-box h3{
             font-size:26px;
