@@ -4,9 +4,7 @@
 @section('content')
 
 <style>
-   /* ============================
-   GENERAL STYLES
-============================ */
+  
 body {
     background: #0a0f1a;
     color: #ddd;
@@ -15,9 +13,6 @@ body {
     padding: 0;
 }
 
-/* ============================
-   HERO SECTION
-============================ */
 .hero {
     background: url('/images/bg-adbox.jpg') center/cover no-repeat;
     min-height: 420px;
@@ -54,9 +49,7 @@ body {
     max-width: 600px;
 }
 
-/* ============================
-   BLUE STRIP
-============================ */
+
 .blue-strip {
     background: linear-gradient(to right, #0c2a4c, #155a96);
     padding: 35px 0;
@@ -99,9 +92,7 @@ body {
     background: #56baff;
 }
 
-/* ============================
-   BIG IMAGE BUTTON
-============================ */
+
 .big-image-btn {
     position: relative;
     display: inline-flex;
@@ -138,9 +129,7 @@ body {
     background: #56baff;  
 }
 
-/* ============================
-   CATEGORIES
-============================ */
+
 .categories-row {
     display: flex;
     justify-content: space-between;
@@ -162,7 +151,7 @@ body {
 
 .category-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 18px rgba(0,0,0,0.25); /* slightly darker on hover */
+    box-shadow: 0 0 18px rgba(0,0,0,0.25); 
 }
 
 .category-card img {
@@ -175,23 +164,18 @@ body {
     margin-top: 12px;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #000; /* change text color to black for contrast */
+    color: #000; 
     letter-spacing: 0.5px;
 }
 
 .category-card p {
     margin: 6px 15px 15px;
-    color: #333; /* darker text for readability */
+    color: #333; 
     font-size: 1rem;
     font-weight: 600;
 }
 
 
-/* ============================
-   MEDIA QUERIES
-============================ */
-
-/* Large screens */
 @media (max-width: 1200px) {
     .hero {
         padding: 60px;
@@ -202,7 +186,6 @@ body {
     }
 }
 
-/* Medium screens */
 @media (max-width: 992px) {
     .hero {
         padding: 40px;
@@ -226,7 +209,7 @@ body {
     }
 }
 
-/* Tablets */
+
 @media (max-width: 768px) {
     .hero {
         padding: 30px;
@@ -246,7 +229,6 @@ body {
     }
 }
 
-/* Mobile phones */
 @media (max-width: 480px) {
     .blue-strip {
         padding: 25px 10px;
@@ -274,7 +256,7 @@ body {
 
 </style>
 
-<!-- HERO SECTION -->
+
 <div class="hero">
     <div class="hero-content">
         <h1>Explore the Universe.</h1>
@@ -292,7 +274,6 @@ body {
             <p class="mb-0">Innovative missions, cutting-edge technology, and a visions, make life multiplanetary</p>
         </div>
 
-        <!-- BIG IMAGE BUTTON -->
         <div class="big-image-btn">
             <img src="/images/spacecraft-dark.jpg" alt="button image">
             <span class="btn-text">CLICK HERE!</span>
@@ -304,12 +285,10 @@ body {
 
 
 
- 
-<!-- CATEGORIES -->
-<div class="container py-5" style="background-color: #ffffff; padding: 40px;">
+<div class="container py-5" style="background-color: #06183bff; padding">
     <div class="categories-row">
 
-        <!-- Category 1 -->
+
         <div class="category-card">
             <img src="/images/astronaut.jpg" alt="Category 1">
             <div class="p-3">
@@ -318,7 +297,6 @@ body {
             </div>
         </div>
 
-        <!-- Category 2 -->
         <div class="category-card">
             <img src="/images/earth.jpg" alt="Category 2">
             <div class="p-3">
@@ -327,7 +305,6 @@ body {
             </div>
         </div>
 
-        <!-- Category 3 -->
         <div class="category-card">
             <img src="/images/spacecraft-small.jpg" alt="Category 3">
             <div class="p-3">
@@ -336,7 +313,6 @@ body {
             </div>
         </div>
 
-        <!-- Category 4 -->
         <div class="category-card">
             <img src="/images/space-shuttle.jpg" alt="Category 4">
             <div class="p-3">
@@ -348,6 +324,4 @@ body {
     </div>
 </div>
 
-
 @endsection
-
